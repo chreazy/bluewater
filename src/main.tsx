@@ -5,7 +5,7 @@ import './index.css'
 import { TonConnectUIProvider } from '@tonconnect/ui-react'
 
 
-const manifest = 'https://chreazy.github.io/bluewater/public/tonconnect-manifest.json';
+const manifest = 'https://chreazy.github.io/bluewater/tonconnect-manifest.json';
 
 createRoot(document.getElementById('root')!).render(
   <TonConnectUIProvider manifestUrl={manifest}>
